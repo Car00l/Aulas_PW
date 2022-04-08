@@ -13,38 +13,37 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-light navbar-light  fixed-top">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
         <i class="fa fa-imdb" aria-hidden="true"></i>
         <img src="/imagens/logo.png" width="40px">
-        <a class="navbar-brand ml-2">Coffe News</a>
+        <a class="navbar-brand ml-2 ">Coffe News</a>
         <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div id="my-nav" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
+                <li class="nav-item ">
+                    <a class="nav-link text-primary" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#noticias">Notícias</a>
+                    <a class="nav-link text-primary" href="#noticias">Notícias</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Entre em Contato</a>
+                    <a class="nav-link text-primary" href="#entre em contato">Entre em Contato</a>
                 </li>
             </ul>
         </div>
     </nav>
 
+    <div style="background-image: url(/imagens/fundo.png); width: 100%; height: 555px;">
     <div class="jumbotron bg-transparent mt-5" id="home">
-        <div style="background-image: url(/imagens/fundo.jpg); width: 100%; height: 500px;">
-            <h1 class="display-1">Coffe News</h1>
+            <h1 class="display-1 text-primary">Coffe News</h1>
             <p class="lead">O melhor site de noticias online</p>
-            <hr class="my-2">
             <p class="col-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ducimus quibusdam dicta velit consectetur voluptates labore corporis, illum, aut tempore eligendi aliquam porro.</p>
         </div>
     </div>
 
-    <h1>Noticias</h1>
+    <h1 class="display-3 text-primary">Noticias</h1>
             <hr class="my-2">
             
     <div class="container-fluid" id="noticias">
@@ -108,6 +107,36 @@
         </div>
     </div>
 
+                 
+    <div class="container-fluid mt-5 bg-light" id="entre em contato">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12">
+
+                <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-sm-4">
+                    <h5 class ="text-primary">Redes Socias:</h5>
+                    <p><img src="/imagens/twitter.svg" width="40px"> _COFFE_NEWS_</p>
+                   <p><img src="/imagens/instagram.svg" width="40px"> @COFFE_NEWS</p>
+                    <p><img src="/imagens/facebook.svg" width="40px"> COFFE NEWS</p>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class ="text-primary">Suporte</h5>
+                    <p></p>
+                   <p><strong>Telefone:</strong> (14) 4002-8922</p>
+                   <p><strong>Email:</strong> coffe.news@gmail.com </p>
+                   <p>Nos mande seu problema:</p>
+                   <input type="text" name="suporte" id="suporte"> 
+                  <input type="button" class="btn-primary" value="Enviar">
+                </div>
+                <div class="col-sm-4">
+                    <h5 class ="text-primary">Sobre nós</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur. Voluptatibus ipsum quae odio accusantium sit rem voluptates impedit soluta repudiandae rerum praesentium, quo, ratione excepturi.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+<br>
 
     <script src="js/jquery-3.6.0.min.js "></script>
     <script src="js/bootstrap.js "></script>
