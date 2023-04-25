@@ -49,7 +49,7 @@ h1 {
 .video-container video {
 	min-width: 100%;
 	min-height: 100%;
-  position: absolute;
+    position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -71,7 +71,8 @@ h1 {
 	z-index: 2;
 }
 
-.btn {
+#btn {
+	background-color: black;
 	display: inline-block;
 	padding: 10px 30px;
 	color: rgba(171, 82, 230, 0.849);
@@ -81,9 +82,7 @@ h1 {
 	opacity: 0.7;
 }
 
-.btn:hover {
-	transform: scale(0.98);
-}
+
 
 #sobre {
     background-color: black;
